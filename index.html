@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Compiled and minified CSS -->
     <link
@@ -22,43 +27,156 @@
   </head>
   <body>
     <!-- navigation -->
-    <nav class="transparent">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Eby Portfolio</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="transparent">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Eby Portfolio</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Works</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
 
     <!-- Hero section with parallax -->
     <div class="parallax-container valign-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col l8 s12 white-text">
-                    <h4 class="left-align thin-text green darken-4 valign">I am Njoku Samson Ebere, <br /> a freelance web developer</h4>
-                </div>
-                <div class="col l4">
-                    <a href="" class="waves-effect btn-large honorable red accent-2 valign">Get In Touch</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col l8 s12 white-text">
+            <h4 class="left-align thin-text green darken-4 valign">
+              I am Njoku Samson Ebere, <br />
+              a freelance web developer
+            </h4>
+          </div>
+          <div class="col l4">
+            <a
+              href=""
+              class="waves-effect btn-large honorable red accent-2 valign"
+              >Get In Touch</a
+            >
+          </div>
         </div>
-        <div class="parallax"><img src="assets\img\luca-bravo-217276-unsplash.jpg" width="100%"></div>
+      </div>
+      <div class="parallax">
+        <img src="assets\img\luca-bravo-217276-unsplash.jpg" width="100%" />
+      </div>
+    </div>
+
+    <!-- services section -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Services</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- first col -->
+        <div class="col l6 s12">
+          <div class="card medium light-blue accent-4 z-depth-2">
+            <div class="card-content white-text">
+              <h3 class="center-align">
+                <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
+              </h3>
+              <div class="divider"></div>
+              <div class="card-title">Custom Web Development</div>
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively. I am a very simple card. I am good at
+                containing small bits of information. I am convenient because I
+                require little markup to use effectively.
+              </p>
+              <div class="card-action">
+                <a href="#">Find out more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second col -->
+        <div class="col l6 s12">
+          <div class="card medium teal darken-4 z-depth-2">
+            <div class="card-content white-text">
+              <h3 class="center-align">
+                <i class="fa fa-pencil fa-3x" aria-hidden="true"></i>
+              </h3>
+              <div class="divider"></div>
+              <div class="card-title">UI/UX DESIGN</div>
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively. I am a very simple card. I am good at
+                containing small bits of information. I am convenient because I
+                require little markup to use effectively.
+              </p>
+              <div class="card-action">
+                <a href="#">Find out more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- third col -->
+        <div class="col l6 s12">
+          <div class="card medium purple darken-4 z-depth-2">
+            <div class="card-content white-text">
+              <h3 class="center-align">
+                <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+              </h3>
+              <div class="divider"></div>
+              <div class="card-title">Digital Marketting</div>
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively. I am a very simple card. I am good at
+                containing small bits of information. I am convenient because I
+                require little markup to use effectively.
+              </p>
+              <div class="card-action">
+                <a href="#">Find out more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second col -->
+        <div class="col l6 s12">
+          <div class="card medium lime darken-4 z-depth-2">
+            <div class="card-content white-text">
+              <h3 class="center-align">
+                <i class="fa fa-tasks fa-3x" aria-hidden="true"></i>
+              </h3>
+              <div class="divider"></div>
+              <div class="card-title">Project Management</div>
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively. I am a very simple card. I am good at
+                containing small bits of information. I am convenient because I
+                require little markup to use effectively.
+              </p>
+              <div class="card-action">
+                <a href="#">Find out more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
